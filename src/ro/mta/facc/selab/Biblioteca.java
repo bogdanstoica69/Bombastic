@@ -27,6 +27,10 @@ public class Biblioteca {
         carti.add(carte);
 
     }
+public void removeBook(Carte c)
+{
+    carti.remove(c);
+}
 
     @Override
     public String toString() {
